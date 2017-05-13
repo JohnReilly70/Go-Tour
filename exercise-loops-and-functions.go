@@ -15,7 +15,6 @@ func Sqrt(x float64) float64 {
 	var answer float64 = x / 2
 	var func1, func2 float64 = 0, 0
 	for i := 0; i < 10; i++ {
-		//fmt.Println(Sqrt_1_eq(answer, x))
 		func1 = Sqrt_1_eq(answer, x)
 		//fmt.Println(func1)
 		func2 = Sqrt_2_eq(answer)
