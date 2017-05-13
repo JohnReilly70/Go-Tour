@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(names)
 
 	a := names[0:2]
-	b := names[2:4]
+	b := names[1:3]
 	fmt.Println(a, b)
 
 	b[0] = "X Gon Give It To Ya!"
