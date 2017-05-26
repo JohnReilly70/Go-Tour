@@ -13,5 +13,9 @@ func main() {
 	m["Bell Labs"] = Vertex{
 		40.68433, -74.39967,
 	}
+	m["TEST"] = Vertex{
+		1, 2,
+	}
+	fmt.Println(m)
 	fmt.Println(m["Bell Labs"])
 }
